@@ -1,0 +1,4 @@
+Admin sistem : adminsistem (password: sistem)
+Admin koperasi : koperasi (password: 123456)
+Admin bank : adminsistem (password: 123456)
+Nasabah : adminsistem (password: 123456)
