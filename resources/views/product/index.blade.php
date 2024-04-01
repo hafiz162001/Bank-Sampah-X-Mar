@@ -35,7 +35,7 @@
                     <div id="product-image-container">
                         <figure><img src="{{ $good->picture }}" data-zoom-image="{{ $good->picture }}" alt="{{ $good->name }}" id="product-image">
                             <figcaption class="item-price-container">
-                                <span class="item-price">Rp{{ $good->price }}</span>
+                                <span class="item-price">{{number_format($good->price,0) }}</span>
                             </figcaption>
                         </figure>
                     </div>{{-- product-image-container --}}
@@ -78,7 +78,7 @@
                     <div class="tab-container left product-detail-tab clearfix">
                         <ul class="nav-tabs">
                           <li class="active"><a href="#description" data-toggle="tab">Deskripsi</a></li>
-                          <li><a href="#koperasi" data-toggle="tab">Detail Koperasi</a></li>
+                          <li><a href="#koperasi" data-toggle="tab">Detail Toko</a></li>
                         </ul>
                         <div class="tab-content clearfix">
                             <div class="tab-pane active" id="description">

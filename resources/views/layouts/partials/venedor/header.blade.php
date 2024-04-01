@@ -21,7 +21,8 @@
                                 @php
                                     $customer = App\Customer::where('user_id', auth()->user()->id)->first();
                                 @endphp
-                                <li><a href="javascript:void(0);"><span>Saldo anda : Rp{{ $customer->balance }}</span></a></li>
+                                <li><a href="javascript:void(0);"><span>Koin anda : {{ number_format($customer->balance, 0) }}</span></a></li>
+
                             @endif
                         </ul>
                     </div>{{-- End .header-top-left --}}
@@ -42,7 +43,7 @@
                         @if (auth()->check())
                             <p class="header-link">Selamat datang, <a href="javascript:void(0);">{{ auth()->user()->id }}</a></p>
                         @else
-                            <p class="header-link"><a href="{{ url('login') }}">Login</a> | <a href="{{ url('/register') }}">Daftar</a></p>
+                            <p class="header-link"><a href="{{ url('login') }}">Login</a> <!-- <a href="{{ url('/register') }}">Daftar</a>--></p>
                         @endif
                         </div>{{-- End .pull-right --}}
                     </div>{{-- End .header-top-right --}}
@@ -55,9 +56,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 logo-container">
                     <h1 class="logo clearfix">
-                        <span>Belanja Sampah</span>
-                        <a href="/" title="Belanja Sampah"><img src="{{ asset('img/logo.png') }}" alt="{{ config('app.name')}}" width="204"></a>
-                    </h1>
+                        <span>Bank sampah</span>
+   </h1>
                 </div>{{-- End .col-md-12 --}}
                 <div class="col-md-12 col-sm-12 col-xs-12 header-inner-right">
                     {{-- <div id="quick-access">

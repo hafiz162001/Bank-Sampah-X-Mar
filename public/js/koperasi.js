@@ -65541,7 +65541,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "for": "name"
     }
-  }, [_vm._v("Nama Koperasi Serba Usaha")])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Nama Marketplace")])]), _vm._v(" "), _c('div', {
     staticClass: "col-lg-10 col-md-10 col-sm-8 col-xs-7"
   }, [_c('div', {
     staticClass: "form-group"
@@ -65623,7 +65623,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "for": "description"
     }
-  }, [_vm._v("Deskripsi koperasi Serba Usaha")])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Deskripsi Marketplace")])]), _vm._v(" "), _c('div', {
     staticClass: "col-lg-10 col-md-10 col-sm-8 col-xs-7"
   }, [_c('div', {
     staticClass: "form-group"
@@ -65827,13 +65827,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "active"
   }, [_c('i', {
     staticClass: "material-icons"
-  }, [_vm._v("store")]), _vm._v(" Koperasi Serba Usaha Saya")])])])
+  }, [_vm._v("store")]), _vm._v(" Marketplace Saya")])])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "card"
   }, [_c('div', {
     staticClass: "header"
-  }, [_c('h2', [_vm._v("Koperasi Serba Usaha Saya")])]), _vm._v(" "), _c('div', {
+  }, [_c('h2', [_vm._v("Marketplace Saya")])]), _vm._v(" "), _c('div', {
     staticClass: "body"
   }, [_c('div', {
     staticClass: "row"

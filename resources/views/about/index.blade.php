@@ -25,10 +25,10 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <header class="content-title">
-                                <h2 class="title">Apa itu Belanja Sampah?</h2>
+                                <h2 class="title">Apa itu bank sampah sukaasih?</h2>
                             </header>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Belanja sampah adalah sebuah sistem informasi yang memungkinkan nasabah dari bank sampah untuk berbelanja di koperasi serba usaha menggunakan saldo tabungan yang mereka miliki.
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bank sampah sukaasih adalah sebuah sistem informasi yang memungkinkan nasabah dari bank sampah untuk berbelanja di Markeplace menggunakan saldo tabungan yang mereka miliki.
                                 <br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nantinya sistem informasi ini mampu memfasilitasi transaksi belanja yang dilakukan oleh nasabah yang didukung dengan penggunaan sistem berbasis web sehingga memudahkan para nasabah dalam berbelanja barang kebutuhan sehari-hari.
                             </p>

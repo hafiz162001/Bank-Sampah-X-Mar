@@ -51,19 +51,19 @@
                                 </td>
                                 <td class="item-code">{{ $good->id }}</td>
                                 <input type="hidden" name="good_id" value="{{ $good->id }}">
-                                <td class="item-price-col"><span class="item-price-special">Rp{{ $good->price }}</span></td>
+                                <td class="item-price-col"><span class="item-price-special">{{number_format($good->price ,0)}}</span></td>
                                 <td>
                                     {{ $quantity }}
                                 </td>
                                 <td class="item-total-col">
-                                    <span class="item-price-special">Rp{{ $subtotal }}</span>
+                                    <span class="item-price-special">{{number_format( $subtotal ,0)}}</span>
                                 </td>
                             </tr>
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td class="checkout-total-title" colspan="4"><strong>TOTAL:</strong></td>
-                                <td class="checkout-total-price cart-total"><strong>Rp{{ $subtotal }}</strong></td>
+                                <td class="checkout-total-price cart-total"><strong>{{number_format( $subtotal,0 )}}</strong></td>
                             </tr>
                         </tfoot>
                     </table>

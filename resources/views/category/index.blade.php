@@ -35,7 +35,7 @@
                                                 </a>
                                             </figure>
                                             <div class="item-price-container">
-                                                <span class="item-price">Rp{{ $good->price }}</span>
+                                                <span class="item-price">{{number_format( $good->price ,0)}}</span>
                                             </div><!-- End .item-price-container -->
                                         </div><!-- End .item-image-wrapper -->
                                         <div class="item-meta-container">

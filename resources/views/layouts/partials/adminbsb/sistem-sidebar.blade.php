@@ -34,7 +34,7 @@
         <router-link tag="li" to="/kelola-koperasi">
             <a>
                 <i class="material-icons">store</i>
-                <span>Koperasi Serba Usaha</span>
+                <span>Markeplace</span>
             </a>
         </router-link>
         <router-link tag="li" to="/kelola-bank">

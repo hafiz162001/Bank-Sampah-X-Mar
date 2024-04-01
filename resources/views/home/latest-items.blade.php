@@ -1,11 +1,11 @@
-<div class="latest-items carousel-wrapper">
-    <header class="content-title">
-        <div class="title-bg">
-            <h2 class="title">Produk terbaru</h2>
-        </div>{{-- End .title-bg --}}
-        <p class="title-desc">{{ !$goods_standard->isEmpty() ? 'Yang baru ditambahkan' : 'Maaf, barang kosong' }}</p>
-    </header>
-    @if (!$goods_standard->isEmpty())
+<div class="hot-items carousel-wrapper">
+	<header class="content-title">
+		<div class="title-bg">
+			<h2 class="title">Produk Rekomendasi</h2>
+		</div>{{-- End .title-bg --}}
+		<p class="title-desc">{{ !$goods_high->isEmpty() ? 'Rekomendasi dari kami untuk anda' : 'Maaf, barang kosong' }}</p>
+	</header>
+    @if (!$goods_high->isEmpty())
     <div class="carousel-controls">
         <div id="hot-items-slider-prev" class="carousel-btn carousel-btn-prev">
         </div>{{-- End .carousel-prev --}}
@@ -13,9 +13,9 @@
         </div>{{-- End .carousel-next --}}
     </div>{{-- End .carousel-controls --}}
     @endif
-    <div class="latest-items-slider owl-carousel">
-        @if (!$goods_standard->isEmpty())
-            @foreach ($goods_standard as $good)
+	<div class="hot-items-slider owl-carousel">
+        @if (!$goods_high->isEmpty())
+            @foreach ($goods_high as $good)
                 <div class="item item-hover">
                     <div class="item-image-wrapper">
                         <figure class="item-image-container">
@@ -25,9 +25,8 @@
                             </a>
                         </figure>
                         <div class="item-price-container">
-                            <span class="item-price">Rp{{ $good->price }}</span>
+                            <span class="item-price">{{ number_format($good->price,0) }}</span>
                         </div>{{-- End .item-price-container --}}
-                        <span class="new-rect">Baru</span>
                     </div>{{-- End .item-image-wrapper --}}
                     <div class="item-meta-container">
                         <h3 class="item-name"><a href="{{ url('produk/'.$good->id) }}">{{ $good->name }}</a></h3>
@@ -41,7 +40,7 @@
                         </div>{{-- End .item-action --}}
                     </div>{{-- End .item-meta-container  --}}
                 </div>{{-- End .item --}}
-            @endforeach
-        @endif
-    </div>{{-- latest-items-slider  --}}
-</div>{{-- End .latest-items --}}
+            @endforeach            
+        @endif        
+	</div>{{-- hot-items-slider  --}}
+</div>{{-- End .hot-items --}}

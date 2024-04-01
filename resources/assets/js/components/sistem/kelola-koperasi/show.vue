@@ -8,7 +8,7 @@
                         <li><a><i class="material-icons">home</i> Navigasi Utama</a></li>
                         <li><a><i class="material-icons">assignment_turned_in</i> Kelola</a></li>
                         <router-link tag="li" to="/kelola-koperasi">
-				            <a><i class="material-icons">store</i> Koperasi Serba Usaha</a>
+				            <a><i class="material-icons">store</i> Marketplace</a>
 				        </router-link>
                         <li class="active"> {{ koperasi.id }}</li>
                     </ol>
@@ -17,7 +17,7 @@
                 <div v-if="!koperasi.id">
                     <div class="card">
                         <div class="header">
-                            <h2>Koperasi Serba Usaha</h2>
+                            <h2>Markeplace</h2>
                         </div>
                         <div class="body">
                             <div class="row">

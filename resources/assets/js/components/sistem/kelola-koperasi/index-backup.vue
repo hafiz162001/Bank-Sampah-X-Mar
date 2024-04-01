@@ -11,7 +11,7 @@
                 <div class="card">
                     <ol class="breadcrumb breadcrumb-col-indigo">
                         <li><a><i class="material-icons">assignment_turned_in</i> Aktivasi</a></li>
-                        <li class="active"><i class="material-icons">store</i> Koperasi Serba Usaha</li>
+                        <li class="active"><i class="material-icons">store</i> Marketplace</li>
                     </ol>
                 </div>
                 <!-- Konten utama -->
@@ -22,7 +22,7 @@
                             <div class="col-lg-10 col-md-10 col-sm-8 col-xs-12">
                                 <!-- Judul konten -->
                                 <h2>
-                                    Aktivasi Koperasi Serba Usaha
+                                    Aktivasi Markeplace
                                 </h2>
                             </div>
                             <!-- Tombol tambah -->
@@ -92,7 +92,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">{{ modalTitle }} Koperasi Serba Usaha</h4>
+                        <h4 class="modal-title">{{ modalTitle }} Marketplace</h4>
                     </div>
                     <form class="form-horizontal add" @submit.prevent="formAction(state.id)">
                         <div v-if="modalTitle == 'Tambah' || modalTitle == 'Edit'">
@@ -123,7 +123,7 @@
                                 <!-- name -->
                                 <div class="row clearfix">
                                     <div class="col-xs-4 form-control-label">
-                                        <label for="name">Nama Koperasi Serba Usaha</label>
+                                        <label for="name">Nama Marketplace</label>
                                     </div>
                                     <div class="col-xs-8">
                                         <div class="form-group">

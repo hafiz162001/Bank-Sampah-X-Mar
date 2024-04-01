@@ -6,14 +6,14 @@
                 <div class="card">
                     <ol class="breadcrumb breadcrumb-col-red">
                         <li><a><i class="material-icons">home</i> Beranda</a></li>
-                        <li class="active"><i class="material-icons">store</i> Koperasi Serba Usaha Saya</li>
+                        <li class="active"><i class="material-icons">store</i>Markeplace Saya</li>
                     </ol>
                 </div>
                 <!-- Cek jika user tidak ada -->
 	            <div v-if="!koperasi">
 	                <div class="card">
 	                    <div class="header">
-	                        <h2>Koperasi Serba Usaha Saya</h2>
+	                        <h2>Marketplace Saya</h2>
 	                    </div>
 	                    <div class="body">
 	                        <div class="row">
@@ -99,7 +99,7 @@
 				                                <!-- name -->
 				                                <div class="row clearfix">
 				                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-				                                        <label for="name">Nama Koperasi Serba Usaha</label>
+				                                        <label for="name">Nama Markeplace</label>
 				                                    </div>
 				                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
 				                                        <div class="form-group">
@@ -127,7 +127,7 @@
 				                                <!-- description -->
 				                                <div class="row clearfix">
 				                                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-				                                        <label for="description">Deskripsi koperasi Serba Usaha</label>
+				                                        <label for="description">Deskripsi Markeplace</label>
 				                                    </div>
 				                                    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
 				                                        <div class="form-group">

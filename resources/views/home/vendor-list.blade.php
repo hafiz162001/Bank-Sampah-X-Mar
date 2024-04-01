@@ -1,7 +1,7 @@
 <div id="brand-slider-container" class="carousel-wrapper">
 	<header class="content-title">
 		<div class="title-bg">
-			<h2 class="title">Koperasi dan bank sampah yang bergabung</h2>
+			<h2 class="title">Kegiatan dan Edukasi</h2>
 		</div>{{-- End .title-bg --}}
 	</header>
     @if (!$koperasis->isEmpty() && !$banks->isEmpty())
@@ -14,17 +14,17 @@
     @endif
     <div class="sm-margin"></div>{{-- space --}}
     <div class="row">
-        <div class="brand-slider owl-carousel">
-            @if (!$koperasis->isEmpty() && !$banks->isEmpty())
-                @foreach ($koperasis as $koperasi)
-                    <a href="#"><img src="{{ $koperasi->picture }}" title="{{ $koperasi->name }}"></a>
-                @endforeach
-                @foreach ($banks as $bank)
-                    <a href="#"><img src="{{ $bank->picture }}" title="{{ $bank->name }}"></a>
-                @endforeach
-            @else
-                <p>Maaf, koperasi dan bank kosong.</p>
-            @endif
-        </div>{{-- End .brand-slider --}}
-    </div>{{-- End .row --}}
-</div>{{-- End #brand-slider-container --}}
+    <div class="brand-slider owl-carousel">
+        <div class="brand-item">
+            <a href="#">
+                <img src="{{ asset('img/patterns/edukasi.jpg') }}" alt="Logo">
+                <p class="brand-text">Cara efektif mendaur ulang sampah </p>
+            </a>
+            </div>
+            <a href="#">
+                <img src="{{ asset('img/patterns/download.jpg') }}" alt="Logo">
+                <p class="brand-text">Weekend Clean </p>
+            </a>
+     
+    </div><!-- End .brand-slider -->
+</div><!-- End .row -->

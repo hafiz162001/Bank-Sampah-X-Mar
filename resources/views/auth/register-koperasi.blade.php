@@ -22,7 +22,7 @@
         <ul class="breadcrumb">
             <li><a href="/">Beranda</a></li>
             <li><a href="/register">Daftar</a></li>
-            <li class="active">Koperasi Serba Usaha</li>
+            <li class="active">Marketplace</li>
         </ul>
     </div>
 </div>
@@ -33,7 +33,7 @@
     <div class="row">
         <div class="col-md-12">
             <header class="content-title">
-                <h1 class="title">Daftar Koperasi Serba Usaha</h1>
+                <h1 class="title">Daftar Marketplace</h1>
                 <p class="title-desc">(*) harus diisi</p>
             </header>
             <div class="xs-margin"></div><!-- space -->
@@ -114,7 +114,7 @@
                     </div>{{-- End .col-md-6 --}}
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <fieldset>
-                            <h2 class="sub-title">Profil Koperasi Serba Usaha</h2>
+                            <h2 class="sub-title">Profil Marketplace</h2>
                             {{-- ID Koperasi--}}
                             <div class="input-group{{ $errors->has('koperasi_id') ? ' has-error' : '' }}">
                                 <span class="input-group-addon"><span class="input-icon input-icon-company"></span><span class="input-text">ID&#42;</span></span>
