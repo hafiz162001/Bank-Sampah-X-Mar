@@ -60,7 +60,7 @@
         <router-link tag="li" to="/laporan-tagihankoperasi">
             <a>
                 <i class="material-icons">book</i>
-                <span>Tagihan Koperasi</span>
+                <span>Tagihan Toko</span>
             </a>
         </router-link>
     </ul>

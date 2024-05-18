@@ -151,7 +151,7 @@
                                 <!-- description -->
                                 <div class="row clearfix">
                                     <div class="col-xs-4 form-control-label">
-                                        <label for="description">Profil Koperasi</label>
+                                        <label for="description">Profil Toko</label>
                                     </div>
                                     <div class="col-xs-8">
                                         <div class="form-group">

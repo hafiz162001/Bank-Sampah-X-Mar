@@ -57,6 +57,8 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 logo-container">
                     <h1 class="logo clearfix">
                         <span>Bank sampah</span>
+                        <img src="{{ asset('img/products/thumbnails/images.jpg') }}" alt="phone 4" style="height:50px"></a>
+                                      
    </h1>
                 </div>{{-- End .col-md-12 --}}
                 <div class="col-md-12 col-sm-12 col-xs-12 header-inner-right">

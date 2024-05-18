@@ -582,7 +582,7 @@
 			<div id="brand-slider-container" class="carousel-wrapper">
 				<header class="content-title">
 					<div class="title-bg">
-						<h2 class="title">Koperasi kami</h2>
+						<h2 class="title">Toko kami</h2>
 					</div><!-- End .title-bg -->
 				</header>
                     <div class="carousel-controls">

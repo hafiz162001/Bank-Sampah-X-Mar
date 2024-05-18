@@ -46,7 +46,7 @@
                     <ul class="product-list">
                         <li><span>Tersedia :</span>{{ $good->stock }}</li>
                         <li><span>ID Produk :</span>{{ $good->id }}</li>
-                        <li><span>Koperasi :</span>{{ $good->koperasi->name }}</li>
+                        <li><span>Toko :</span>{{ $good->koperasi->name }}</li>
                     </ul>
                     <hr>
                     @if ($good->stock > 0)
@@ -86,7 +86,7 @@
                             </div>{{-- End .tab-pane --}}
                             <div class="tab-pane" id="koperasi">
                                 <ul class="product-details-list">
-                                    <li>Nama Koperasi : {{ $good->koperasi->name }}</li>
+                                    <li>Nama Toko : {{ $good->koperasi->name }}</li>
                                     <li>Alamat : {{ $good->koperasi->address == null ? '(tidak ada)' : $good->koperasi->address }}</li>
                                     @php
                                         setlocale(LC_TIME, 'Indonesian');

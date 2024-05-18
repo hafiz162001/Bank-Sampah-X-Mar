@@ -67146,7 +67146,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("Batal")])])]) : _vm._e(), _vm._v(" "), (_vm.modalTitle == 'Aktivasi' || _vm.modalTitle == 'Deaktivasi' || _vm.modalTitle == 'Reset Password' || _vm.modalTitle == 'Hapus') ? _c('div', [(_vm.modalTitle == 'Aktivasi') ? _c('div', {
     staticClass: "modal-body"
-  }, [_c('p', [_vm._v(_vm._s(_vm.errors))]), _vm._v("\n                            Apakah anda yakin ingin memverifikasi "), _c('b', [_vm._v(_vm._s(_vm.state.id))]), _vm._v("?\n                        ")]) : _vm._e(), _vm._v(" "), (_vm.modalTitle == 'Deaktivasi') ? _c('div', {
+  }, [_c('', [_vm._v(_vm._s(_vm.errors))]), _vm._v("\n                            Apakah anda yakin ingin memverifikasi "), _c('b', [_vm._v(_vm._s(_vm.state.id))]), _vm._v("?\n                        ")]) : _vm._e(), _vm._v(" "), (_vm.modalTitle == 'Deaktivasi') ? _c('div', {
     staticClass: "modal-body"
   }, [_vm._v("\n                            Apakah anda yakin ingin menonverifikasi "), _c('b', [_vm._v(_vm._s(_vm.state.id))]), _vm._v("?\n                        ")]) : _vm._e(), _vm._v(" "), (_vm.modalTitle == 'Reset Password') ? _c('div', {
     staticClass: "modal-body"

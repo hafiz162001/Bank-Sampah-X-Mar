@@ -9,9 +9,9 @@
                 <div class="col-md-4 col-sm-6 col-xs-12 widget">
                     <h3>Alamat Kami</h3>
                     <ul class="contact-list">
-                        <li><strong>PT {{ config('app.name') }}</strong></li>
-                        <li>Jalan Raya Diponegoro Gang Baruna No. 4</li>
-                        <li>Denpasar, Bali, Indonesia 80222</li>
+                        <li><strong> {{ config('app.name') }}</strong></li>
+                        <li>Desa Sukaasih</li>
+                        <li>Singaparna, Tasikmalaya, Indonesia </li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 widget">
@@ -30,8 +30,8 @@
             <div class="row">
                 <div class="col-md-7 col-sm-7 col-xs-12 footer-social-links-container">
                     <ul class="social-links clearfix">
-                        <li><a href="https://www.facebook.com/IanRizkyPratama" class="social-icon icon-facebook"></a></li>
-                        <li><a href="mailto:belanjasampah62@gmail.com" target="_top" class="social-icon icon-email"></a></li>
+                        <li><a href="https://www.instagram.com/hafiz_ahmad_r" class="social-icon icon-instagram"></a></li>
+                        <li><a href="hafizachmadr@gmail.com" target="_top" class="social-icon icon-email"></a></li>
                     </ul>
                 </div>{{-- End .col-md-7 --}}
                 <div class="col-md-5 col-sm-5 col-xs-12 footer-text-container">

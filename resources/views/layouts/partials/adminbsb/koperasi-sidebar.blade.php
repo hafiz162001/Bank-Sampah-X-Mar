@@ -1,7 +1,7 @@
 <router-link tag="li" to="/my">
     <a>
         <i class="material-icons">store</i>
-        <span>Koperasi Saya</span>
+        <span>Toko Saya</span>
     </a>
 </router-link>
 <li class="header">NAVIGASI UTAMA</li>
