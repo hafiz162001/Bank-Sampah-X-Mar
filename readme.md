@@ -16,6 +16,6 @@ Karena ingin aja
 Berikut ini 4 akses yang saya buat pada belanjasampah dan bisa teman-teman gunakan sebagai bahan untuk mengetes sistem informasi ini :
 
 - Admin sistem : adminsistem (password: sistem)
-- Admin marketplace : koperasi (password: 123456)
+- Admin marketplace : marketplace (password: 123456)
 - Admin bank : adminsistem (password: 123456)
 - Nasabah : adminsistem (password: 123456)
